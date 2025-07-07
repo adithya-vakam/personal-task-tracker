@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+button {
+  margin: 0.5rem 0.25rem;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.completed {
+  background: #d4edda;
+}
+
+.pending {
+  background: #f8d7da;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.logout {
+  float: right;
+  margin-top: -3rem;
+  background: #e74c3c;
+  color: white;
+}
